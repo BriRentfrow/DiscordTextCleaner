@@ -52,7 +52,7 @@ function cleanUsername(discordName) {
 function cleanCustomEmojis() {
   var body = DocumentApp.getActiveDocument().getActiveTab().asDocumentTab().getBody()
 
-  const customEmoji = ':[A-Za-z0-9]+:'
+  const customEmoji = ':[A-Za-z0-9]+:|:[A-Za-z0-9]+~[0-9]+:|:([A-Za-z]+(_[A-Za-z]+)+):'
   body.replaceText(customEmoji, '')
 }
 
