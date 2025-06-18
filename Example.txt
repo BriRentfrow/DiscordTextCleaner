@@ -1,4 +1,4 @@
-This text can be copied into a Google Doc to serve as an example for you to test the code. The username you put into the dialouge in this example would be "BriRentfrow".
+This text can be copied into a Google Doc to serve as an example for you to test the code. The username you put into the dialog in this example would be "BriRentfrow".
 
 BriRentfrow — 1:53 PM
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore :happycat~1:
