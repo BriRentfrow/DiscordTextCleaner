@@ -1,5 +1,5 @@
-# Discord Text Cleaner
-A Google Apps Script to clean text from copied and pasted Discord text on a Google Doc. This is intended to automate formatting a mass copy/paste of Discord messages to leave only the plain text. This code can be run on messages that have been copied into a Google Doc using Ctrl + Shift + V so that it doesn't take on the Discord formatting. This code does not run on Discord itself, only on Google Docs. 
+# Discord Text Cleaner for Google Docs
+A Google Apps Script to clean text from copied and pasted Discord text on a Google Doc. This is intended to automate formatting a mass copy/paste of Discord messages to leave only the plain text. This code can be run on messages that have been copied into a Google Doc using Ctrl + Shift + V so that it doesn't take on the Discord formatting. **This code does not run on Discord itself, only on Google Docs.** 
 
 The features of this program are as follows:
 - Remove instances of Username / Server Nickname (A prompt will appear that asks for the name)
@@ -42,4 +42,4 @@ Features that I could think of that could be added (I may or may not add later):
 - Adding HTML paragraph break tags between paragraphs
 - Selecting of tagged users (starting with an @ sign) and removal of those tags
 - Removal of extra spaces left by removals
-- Improvement to custom emoji Regex
+- Improvement to custom emoji Regex (It may not catch all custom emojis, if you encounter one it doesn't please let me know)
