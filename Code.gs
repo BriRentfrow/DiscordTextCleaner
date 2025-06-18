@@ -16,10 +16,12 @@ function cleanTimeStamps() {
   const date = '\\d{1,2}/\\d{1,2}/\\d{4} \\d{1,2}:\\d{2} [AP]M'
   const yesterday = 'Yesterday at \\d{1,2}:\\d{2} [AP]M'
   const today = 'Today at \\d{1,2}:\\d{2} [AP]M'
+  const today2 = '\\d{1,2}:\\d{2} [AP]M'
 
   body.replaceText(date,"")
   body.replaceText(yesterday,"")
   body.replaceText(today,"")
+  body.replaceText(today2,"")
 
 }
 
